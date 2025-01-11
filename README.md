@@ -1,4 +1,3 @@
 # GrooveThings
 
-Some experimentation and tools for *Groove Launcher*
-Groove Launcher: https://github.com/groovelauncher/GrooveLauncher
+Some experimentation and tools for *Groove Launcher*: https://github.com/groovelauncher/GrooveLauncher
