@@ -2,3 +2,13 @@
 /* author: [Abel Simon](https://github.com/abelsmn) */
 /* icon: https://i.imgur.com/MwX9f5S.jpeg */
 /* description: Style Test */
+
+:root {
+  --appdrawer-icon: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGdSURBVGhD7ZpBaoNQEIa1aaWllBS6SrY9gFsXPUe68gCB9iY9hCcoHqLgNquEgIGsunCTrEJwY+e3I0R4SlqMOjIf/Mw8gvD/8vQNSSxF+R9BENjcKkqrTCaTW24VpUFaeaVlWTal8vK7sr5s2/7mvhF833/m9nIgBOmNVIAewWRBpme5/TLywpBhU5BstVqhyAlDZo1BwHK5RJERBkZJp89IifV6jTKMMNvtFkXDtA6MkirD7Pd7lGGE2e12KHhB9D8QTJIqwzD4XMO0Ckyy2TrOCmMcGvnCYsi7NA+kR9JHvjLzTvr887BJQSpP4w6Zsb3zWSwWfG1/iKIoY3tGrriWcF33lVsxGIP0Ec/zam/usB/2tsANI8k+S2COTdYhO0SSJCj9nrdgjlQZQsQ4D4OkyhCbzQZFdog4jlFkhxDxJQQMkmSHAGSybgBFwEZCdDmiNHpadxWk3yOHCWwd3kIFjW2nUwbxs4KiKIrSCWEYjizHcUT/6yaKIidN0+t8MR6P7/LGMLLM5/MRt72BDtQnbq3j8XhzOBzufwDRF2tYz5FyZwAAAABJRU5ErkJggg==");
+}
+#app #app-page-icon, #app #search-icon {
+  pointer-events: all;
+  background: var(--appdrawer-icon):
+  background-size: 100% 100%;
+  box-shadow: none !important;
+}
