@@ -1,5 +1,5 @@
 <div align="left">
-<img src="icon.png" width="120">
+<img src="icon.png" width="200">
 
 
 # GrooveThings
