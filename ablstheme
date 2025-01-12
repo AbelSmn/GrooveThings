@@ -1,5 +1,5 @@
-/* title: Lite Mode */
-/* author: [Berkay Tumal](https://github.com/berkaytumal) */
+/* title: AblTheme */
+/* author: [Abel Simon](https://github.com/Abelsmn) */
 /* icon: https://raw.githubusercontent.com/groovelauncher/GrooveLauncher/refs/heads/main/themes/lite-mode/icon.webp */
 /* description: A lightweight theme optimized for older devices with reduced animations and processing requirements */
 
@@ -50,7 +50,7 @@
    }
     9.99% {
         animation-timing-function: ease-in;
-        transform: scaleY(0);
+        transform: scaleY(90);
    }
     10% {
         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
