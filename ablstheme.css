@@ -45,7 +45,7 @@
     opacity: 0;
 }
 @keyframes live-tile-matrix-tile-flip {
-    1% {
+    0% {
         animation-timing-function: ease-in;
    }
     9.99% {
