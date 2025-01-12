@@ -50,7 +50,7 @@
    }
     9.99% {
         animation-timing-function: ease-in;
-        transform: scaleY(1);
+        transform: scaleY(15);
    }
     10% {
         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
