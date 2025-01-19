@@ -1,0 +1,35 @@
+/* title: Abl's Theme */
+/* author: [Abel Simon](https://github.com/AbelSmn) */
+/* icon: https://raw.githubusercontent.com/AbelSmn/GrooveThings/refs/heads/main/icon2.png */
+/* description: This theme works best with dark mode. */
+@keyframes live-tile-matrix-tile-flip {
+  0% {
+    animation-timing-function: ease-in;
+  }
+  9.99% {
+    animation-timing-function: ease-in;
+    transform: scaleY(0);
+  }
+  10% {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scaleY(0);
+  }
+  100% {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+#app #app-page-icon {
+  box-shadow: none !important;
+  icon: none !important;
+  background: none !important;
+}
+
+div.groove-context-menu {
+  color: #f3eff7;
+  background: rgba(255, 255, 255, 0.3411764706);
+}
+
+div.letter-selector-row {
+  color: transparent;
+  background: rgba(255, 255, 255, 0.3411764706);
+}
